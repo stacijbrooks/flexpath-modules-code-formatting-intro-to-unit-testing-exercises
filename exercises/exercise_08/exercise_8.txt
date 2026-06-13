@@ -4,3 +4,17 @@ Exercise 8: Updating Dependencies
 Description: Write out the npm commands for how to check for outdated packages
 and then either update them all or specifically update them 
 to the latest major versions
+
+// Check for outdated packages
+npm outdated
+
+// Update packages to the newest versions allowed by package.json
+npm update
+
+// Update a specific package to the latest version
+npm install package-name@latest
+
+// Update all packages to their latest major versions
+npm install -g npm-check-updates
+ncu -u
+npm install
